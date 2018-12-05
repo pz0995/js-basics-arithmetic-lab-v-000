@@ -7,3 +7,23 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
+function newID(oldID, newID) {
+  oldID + 1000000000;
+}
+
+function ageIsValid(currentAge) {
+  if (Number.isInteger(currentAge))
+    return true;
+}
+
+function randomNumber() {
+  Math.random() * 20;
+}
+
+function randomInteger(randomInteger) {
+  randomInteger = Math.floor(randomNumber);
+}
+
+function randomUserID() {
+  var randomUserID = randomInteger + 1000000000;
+}
